@@ -103,5 +103,5 @@ def get_weather_commuter(locWork, locHome):
 
 sched = BlockingScheduler()
 sched.add_job(get_weather_commuter, 'interval', ['London,GB', 'Cambridge,GB'], hours=3,
-    start_date = '2018-10-23 13:30:00', id='my_job')
+    start_date = '2018-10-30 12:10:00', id='my_job')
 sched.start()
